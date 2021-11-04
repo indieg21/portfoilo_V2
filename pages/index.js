@@ -1,8 +1,12 @@
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+
 function index() {
   return (
-    <>
-      <h1 className='text-4xl grid place-content-center'>Hello World2</h1>
-    </>
+    <div className='h-screen '>
+      <Navbar />
+      <Hero />
+    </div>
   );
 }
 
