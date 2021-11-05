@@ -16,24 +16,18 @@ function Meta() {
           href='https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap'
           rel='stylesheet'
         ></link>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap'
-          rel='stylesheet'
-        ></link>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link
           href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap'
           rel='stylesheet'
         ></link>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link
           href='https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'
           rel='stylesheet'
         ></link>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'
+          rel='stylesheet'
+        />
       </Head>
     </div>
   );
