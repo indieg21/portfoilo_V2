@@ -14,7 +14,7 @@ function About() {
               <h1 className='text-6xl font-bold font-heroh1 lg:mt-8'>
                 About Me
               </h1>
-              <p className='text-5xl font-bold font-heroh2 lg:mt-12 mt-32 pb-10'>
+              <p className=' text-4xl md:text-5xl font-bold font-heroh2 lg:mt-12 mt-32 pb-10'>
                 I'm a 3rd year BCA student who's passionate about Web designing
                 and development.
               </p>
