@@ -37,7 +37,7 @@ function Contact() {
     <>
       <div
         id='contact'
-        className='h-screen  mt-96 lg:mt-0 text-gray-100 px-8 py-12 flex '
+        className='h-screen mt-96 lg:mt-0 text-gray-100 px-8 lg:py-12 flex '
       >
         <div className='w-11/12 mt-24 px-8 grid gap-8 grid-cols-1 md:grid-row lg:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900  dark:text-white rounded-lg '>
           <div className='flex flex-col  justify-between'>
