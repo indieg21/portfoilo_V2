@@ -35,15 +35,18 @@ function Contact() {
 
   return (
     <>
-      <div id='contact' className='h-section text-gray-100 px-8 py-12 flex '>
-        <div className='w-11/12 mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900  dark:text-white rounded-lg '>
-          <div className='flex flex-col justify-between'>
+      <div
+        id='contact'
+        className='h-screen  mt-96 lg:mt-0 text-gray-100 px-8 py-12 flex '
+      >
+        <div className='w-11/12 mt-24 px-8 grid gap-8 grid-cols-1 md:grid-row lg:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900  dark:text-white rounded-lg '>
+          <div className='flex flex-col  justify-between'>
             <div>
               <h2 className='text-4xl lg:text-5xl font-bold leading-tight'>
                 Lets talk about everything!
               </h2>
             </div>
-            <div className='mt-8 text-center'>
+            <div className='mt-8 lg:mt-0 text-center hidden xl:block  '>
               <Emailsvg />
             </div>
           </div>
@@ -53,7 +56,7 @@ function Contact() {
                 Full Name
               </span>
               <input
-                className='w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline'
+                className='w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg  focus:outline-none focus:shadow-outline'
                 type='text'
                 name='user_name'
                 ref={form}

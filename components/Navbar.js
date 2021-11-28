@@ -60,19 +60,19 @@ function Navbar() {
             Riz
           </div>
 
-          <ul id='nav-items' className='flex font-navbar_items '>
+          <ul id='nav-items' className='md:flex font-navbar_items '>
             <Link to='about' smooth={true} duration={400}>
-              <li className='text-xl font-navbar_items mr-4 cursor-pointer  '>
+              <li className='text-xl font-navbar_items mr-4 cursor-pointer hidden md:block  '>
                 About me
               </li>
             </Link>
             <Link to='projects' smooth={true} duration={400}>
-              <li className='text-xl font-navbar_items mr-4 cursor-pointer'>
+              <li className='text-xl font-navbar_items mr-4 cursor-pointer hidden md:block '>
                 Projects
               </li>
             </Link>
             <Link to='contact' smooth={true} duration={400}>
-              <li className='text-xl font-navbar_items mr-4 cursor-pointer'>
+              <li className='text-xl font-navbar_items mr-4 cursor-pointer hidden md:block  '>
                 Contact
               </li>
             </Link>

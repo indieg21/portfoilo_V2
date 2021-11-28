@@ -15,24 +15,13 @@ function index() {
 
   return (
     <>
-      {mobilescreen < 1900 ? (
-        <div className='font-bold grid place-items-center'>
-          <div>
-            'Sorry this page has not been optimized for mobile or tablet view
-            yet'
-          </div>
-          Until then you can look at
-          <a href='https://rizwan-k.netlify.com'>my older portfolio</a>
-        </div>
-      ) : (
-        <div className=' dark:text-white dark:bg-gray-800'>
-          <Navbar />
-          <Hero />
-          <About />
-          <Projects />
-          <Contact />
-        </div>
-      )}
+      <div className=' dark:text-white dark:bg-gray-800 '>
+        <Navbar />
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
     </>
   );
 }
