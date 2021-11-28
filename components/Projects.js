@@ -26,7 +26,7 @@ function Projects() {
       <div id='projects' className='h-screen  mt-96 lg:mt-0 flex items-center '>
         <section className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12 '>
           <div className='text-center pb-12'>
-            <h1 className=' lg:font-heroh2 font-heroh1  font-bold text-5xl  mb-5 lg:mb-0 md:text-4xl font-heading '>
+            <h1 className=' lg:font-heroh2 font-heroh1  font-bold text-6xl  mb-5 lg:mb-0 md:text-4xl font-heading '>
               Projects so far...
             </h1>
           </div>
