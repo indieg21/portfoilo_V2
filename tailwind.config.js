@@ -22,6 +22,7 @@ module.exports = {
         navbar_items: ['Lexend Deca', 'sans-serif'],
         heroh1: ['PlayFair Display', 'sans-serif'],
         heroh2: ['Montserrat', 'sans-serif'],
+        Lexen: ['Lexend Deca', 'sans-serif'],
       },
       height: {
         section: '90vh',

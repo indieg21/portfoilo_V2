@@ -35,14 +35,17 @@ function Projects() {
               <div className='w-full bg-white dark:bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center shadow-lg hover:shadow-2xl  '>
                 <div>
                   <Image
-                    className='object-center object-cover h-auto w-full'
+                    className='object-center object-cover h-auto w-full  '
                     src={colorgame}
                     alt='colorgame'
                   />
                 </div>
-                <div className='text-center py-8 sm:py-6'>
+                <div className='text-center py-8 sm:py-6  '>
                   <p className='text-xl text-gray-700 font-bold mb-2 dark:text-white '>
                     Color Guess Game
+                  </p>
+                  <p className='text-base  text-gray-600 font-Lexen mb-2 dark:text-gray-100 '>
+                    A Simple Colour guessing game based on Vanilla JS
                   </p>
                   <div className='flex justify-evenly text-xl '>
                     <SiHtml5 className=' text-red-500 mx-1.5' />
@@ -65,6 +68,9 @@ function Projects() {
                 <div className='text-center py-8 sm:py-6'>
                   <p className='text-xl text-gray-700 font-bold mb-2 dark:text-white'>
                     Todo App
+                  </p>
+                  <p className='text-base  text-gray-600 font-Lexen mb-2 dark:text-gray-100 '>
+                    A Todo list Site with User Authentication and Authorization
                   </p>
                   <div className='flex justify-evenly text-xl '>
                     <SiReact className=' text-blue-500 mx-1.5' />
@@ -109,6 +115,11 @@ function Projects() {
                 <div className='text-center py-8 sm:py-6'>
                   <p className='text-xl text-gray-700 font-bold mb-2 dark:text-white'>
                     Work Flow
+                  </p>
+                  <p className='text-base  text-gray-600 font-Lexen mb-2 dark:text-gray-100 '>
+                    A Responsive Notes, Todo, Blogs Site created with Next JS,
+                    Tailwind with User Authentication, Authorization and
+                    Password Hashing
                   </p>
                   <div className='flex justify-evenly text-xl '>
                     <SiNextdotjs className='mx-1.5' />
