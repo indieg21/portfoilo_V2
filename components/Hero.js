@@ -11,7 +11,7 @@ function Hero() {
   return (
     <>
       <div className=' h-screen w-10/12 mx-auto mb-96 md:mb-0  flex flex-col lg:flex-row   '>
-        <div className=' h-52 mt-48 lg:mt-72 ml-2 lg:ml-16    '>
+        <div className=' h-52 mt-48 lg:mt-72 ml-2 lg:ml-16 animate__animated animate__lightSpeedInLeft  '>
           <h1 className='font-heroh1 md:flex justify-center lg:justify-start md:text-5xl mb-4 text-5xl '>
             I'm Rizwan K,
           </h1>
@@ -20,7 +20,7 @@ function Hero() {
           </p>
         </div>
         <div className='flex lg:flex-col lg:w-20 w-9/12 mx-auto lg:ml-5  cursor-pointer mt-48 md:mt-80  lg:mt-0 '>
-          <div className='lg:text-xl text-2xl  my-auto flex flex-row mx-auto   lg:flex-col  '>
+          <div className='lg:text-xl text-2xl  my-auto flex flex-row mx-auto   lg:flex-col animate__animated animate__flip '>
             <a target='_blank' href='https://instagram.com'>
               <FaInstagram className='my-8 mx-3.5 hover:scale-150 transition-all hover:text-pink-500' />
             </a>
@@ -34,7 +34,7 @@ function Hero() {
               <FaLinkedin className='my-8 mx-3.5 hover:scale-150 transition-all hover:text-blue-600' />
             </a>
             <a target='_blank' href='https://github.com/riz1-k'>
-              <FaGithub className='my-8 mx-3.5 hover:scale-150 transition-all  hover:text-gray-600' />
+              <FaGithub className='my-8 mx-3.5 hover:scale-150 transition-all' />
             </a>
           </div>
         </div>
