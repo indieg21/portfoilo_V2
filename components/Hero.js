@@ -24,7 +24,7 @@ function Hero() {
             <a target='_blank' href='https://instagram.com'>
               <FaInstagram className='my-8 mx-3.5 hover:scale-150 transition-all hover:text-pink-500' />
             </a>
-            <a target='_blank' href='https://twitter.com/riz1_k9'>
+            <a target='_blank' href='https://twitter.com/_riz1_'>
               <FaTwitter className='my-8 mx-3.5 hover:scale-150 transition-all hover:text-blue-400' />
             </a>
             <a
