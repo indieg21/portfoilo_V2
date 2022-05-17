@@ -57,7 +57,7 @@ function Navbar() {
             onClick={scroll.scrollToTop}
             className='text-3xl font-bold cursor-pointer font-heroh2 tracking-wider'
           >
-            Riz
+            India G
           </div>
 
           <ul id='nav-items' className='md:flex font-navbar_items '>
