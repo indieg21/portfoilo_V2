@@ -39,14 +39,14 @@ function Contact() {
         id='contact'
         className='h-screen mt-96 lg:mt-0 text-gray-100 px-8 py-12 flex '
       >
-        <div className='w-11/12 mt-24 px-8 grid gap-8 grid-cols-1 md:grid-row lg:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900  dark:text-white rounded-lg '>
+        <div className='w-[95%] mt-24 px-8 grid gap-24 grid-cols-1 md:grid-row lg:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900  dark:text-white rounded-lg '>
           <div className='grid grid-flow-row  justify-between'>
             <div>
               <h2 className='text-4xl lg:text-5xl font-bold leading-tight'>
                 Lets talk about everything!
               </h2>
             </div>
-            <div className='mt-8 lg:mt-0 text-center hidden xl:block  '>
+            <div className='mt-8 lg:mt-0 text-center hidden xl:block scale-90 '>
               <Emailsvg />
             </div>
           </div>

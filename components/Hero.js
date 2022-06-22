@@ -10,8 +10,8 @@ import {
 function Hero() {
   return (
     <>
-      <div className=' h-screen w-10/12 mx-auto mb-96 md:mb-0  flex flex-col lg:flex-row   '>
-        <div className=' h-52 mt-48 lg:mt-72 ml-2 lg:ml-16 animate__animated animate__lightSpeedInLeft  '>
+      <div className=' xl:h-screen h-screen md::h-[120rem] w-10/12 mx-auto mb-96 md:mb-0  flex flex-col md:items-center lg:flex-row   '>
+        <div className=' h-52 mt-48 md:mt-10 lg:mt-16 ml-2 lg:ml-16 animate__animated animate__lightSpeedInLeft  '>
           <h1 className='font-heroh1 md:flex justify-center lg:justify-start md:text-5xl mb-4 text-5xl '>
             I'm India G,
           </h1>

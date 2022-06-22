@@ -5,7 +5,7 @@ function About() {
     <>
       <div
         id='about'
-        className='h-screen flex items-center mt-48 md:mt-0   w-11/12 mx-auto '
+        className='h-screen flex items-center mt-48 md:mt-44  w-11/12 mx-auto '
       >
         <div className='xl:grid xl:grid-cols-2  '>
           <Aboutsvg className='hidden xl:block w-[80%] ' />
