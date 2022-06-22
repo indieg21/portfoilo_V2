@@ -16,10 +16,10 @@ function About() {
               </h1>
               <article className='flex flex-col'>
                 <p className=' text-3xl md:text-5xl font-bold font-heroh2 lg:mt-12 mt-32 pb-10'>
-                  I'm a Designer transitioning into front-end development.
+                  I'm a Designer transitioning into Front-end development.
                 </p>
                 <p className=' text-3xl md:text-5xl font-bold font-heroh2 lg:mt-12 mt-32 pb-10'>
-                  I'm passionate about  and development.
+                  I'm passionate about the look of a site. Product Design combined with Front-end development is my focus.
                 </p>
               </article>
             </div>

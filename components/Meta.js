@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import pfp from './images/pfp.png';
-
 function Meta() {
   return (
     <div>
@@ -10,7 +8,7 @@ function Meta() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link
           rel='icon'
-          href='https://img.icons8.com/bubbles/50/000000/r--v1.png'
+          href={"/igtn.png"}
           type='image/x-icon'
         />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
